@@ -8,7 +8,7 @@
 .vscode/
 
 # NetBeans IDE Folder
-nbproject/
+private/
 
 build/
 dist/
