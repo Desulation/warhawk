@@ -1,9 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<%--
+    An emulated game server for Warhawk on the PS3®.
+    Copyright © 2018 Jon | Jonathan (@JonHypersomniac)
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program. If not, see <https://www.gnu.org/licenses/>.
+--%><%@ page contentType="text/xml;charset=UTF-8" pageEncoding="UTF-8" %><%--
+--%><?xml version="1.0" encoding="UTF-8"?>
 <XML>
   <URL_List>
+    <%--
     <!--NOTICE: This XML file (and this folder as a whole) isn't read by the game AT ALL!!!-->
+    <!-- The actual folder Warhawk uses is /WARHAWK_SVML/, XML/HTML is optionally available-->
+    <!-- because it was included in a SCE-RT VO SDK for any game to use, it never took off.-->
     <!--Original Warhawk Host: http://warhawk-prod3.svo.online.scea.com:10060/WARHAWK_XML/…-->
-    <loginURL>http://warhawk.gobtron.me:10060/WARHAWK_XML/account/Account_Login.jsp</loginURL>
+    --%><loginURL>http://warhawk.gobtron.me:10060/WARHAWK_XML/account/Account_Login.jsp</loginURL>
     <loginEncryptedURL>http://warhawk.gobtron.me:10060/WARHAWK_XML/account/Account_Encrypted_Login_Submit.jsp</loginEncryptedURL>
     <logoutURL>http://warhawk.gobtron.me:10060/WARHAWK_XML/account/Account_Logout.jsp</logoutURL>
     <mailBoxURL>http://warhawk.gobotron.me:10060/WARHAWK_XML/mail/Mail_Box.jsp</mailBoxURL>
