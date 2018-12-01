@@ -1,0 +1,14 @@
+# GitHub Desktop Git Folder
+.git/
+
+# JetBrains PHPStorm IDE Folder
+.idea/
+
+# Visual Studio Code IDE Folder
+.vscode/
+
+# NetBeans IDE Folder
+nbproject/
+
+build/
+dist/
